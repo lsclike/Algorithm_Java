@@ -12,6 +12,8 @@ public class use_FixedCapacityStackOfString {
             else if (!s.isEmpty()) StdOut.print(s.pop() + " ");
         }
 
+        for(String n : s)
+        {StdOut.println(n);}
         StdOut.println("(" + s.size() + " left at stack)");
 
     }

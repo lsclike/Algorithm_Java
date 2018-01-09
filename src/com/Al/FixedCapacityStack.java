@@ -1,9 +1,10 @@
 package com.Al;
-import java.util.*;
+
+import java.util.Iterator;
 
 
 
-public class FixedCapacityStack<Item> {
+public class FixedCapacityStack<Item> implements Iterable<Item>{
     private Item[] a;
     private int N;
 
@@ -34,6 +35,15 @@ public class FixedCapacityStack<Item> {
 
         a = temp;
     }
+    public Iterator<Item> iterator(){ return new ReverseArrayIterator(); }
 
+    private class ReverseArrayIterator implements Iterator<Item>
+    {
+        private int i = N;
+
+        public boolean hasNext() {return i>0 ;}
+        public Item next() { return a[--i]; }
+        public void remove() {}
+    }
 
 }
