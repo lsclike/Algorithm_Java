@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="stdlib">
     <CLASSES>
-      <root url="jar:///tmp/mozilla_lsclike0/stdlib.jar!/" />
+      <root url="jar://$USER_HOME$/java_library/stdlib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar:///tmp/mozilla_lsclike0/stdlib.jar!/" />
+      <root url="jar://$USER_HOME$/java_library/stdlib.jar!/" />
     </SOURCES>
   </library>
 </component>
