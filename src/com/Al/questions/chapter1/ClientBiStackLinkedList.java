@@ -9,7 +9,7 @@ public class ClientBiStackLinkedList {
         test.push("hello");
         test.push("new");
         test.push("world");
-        StdOut.print(test.last());
+        StdOut.print();
         char c = s.charAt(1);
         String t = String.valueOf(c);
         StdOut.println(t);

@@ -17,16 +17,19 @@ public class BiStackLinkedList<Item> {
         Node oldfirst = first;
         first = new Node();
         first.item = item;
-        first.next = oldfirst;
+        first.next = null;
+        first.last = oldfirst;
         N++;
     }
 
-    public Item last() {
-        Node oldfirst = first.next;
-        oldfirst.last = first;
-        Item item = oldfirst.last.item;
-        return item;
-    }
+//    public Item last() {
+//        if (!isEmpty()){
+//            if (N == 1){
+//                return first.item;
+//            }
+//
+//        }
+//    }
 
     public Item pop(){
         Item item = first.item;
