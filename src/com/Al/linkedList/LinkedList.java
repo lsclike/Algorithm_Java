@@ -117,19 +117,31 @@ public class LinkedList<E> implements Iterable<E> {
         }
     }
 
+    public void reversing(){
+        Node pre = null;
+        Node current = first;
+        while (current != null){
+            Node afterCurrent = current.next;
+            current.next = pre;
+            pre = current;
+            current = afterCurrent;
+        }
+        first = pre;
+    }
+
     public static void main(String[] args){
         LinkedList<Integer> theList = new LinkedList<>();
         theList.push(1);
         theList.push(3);
         theList.push(5);
-        theList.push(7);
-        theList.push(9);
-        theList.push(2);
-        theList.push(4);
-        theList.push(6);
-        theList.push(8);
-        theList.push(10);
-        theList.weaving();
+        theList.reversing();
         System.out.println(theList);
+//        theList.push(7);
+//        theList.push(9);
+//        theList.push(2);
+//        theList.push(4);
+//        theList.push(6);
+//        theList.push(8);
+//        theList.push(10);
     }
 }
