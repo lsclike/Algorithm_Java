@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class LinkedList<E> implements Iterable<E> {
-    private class Node{
+    public class Node{
         private E item;
         private Node next;
 
@@ -129,13 +129,64 @@ public class LinkedList<E> implements Iterable<E> {
         first = pre;
     }
 
+    public Integer powerOfTen(LinkedList<Integer> list){
+        int result = 0;
+        int startPower = 0;
+        while ( list.peak()!= null){
+            result += (int)first.item * Math.pow(10, startPower);
+            first = first.next;
+            startPower += 1;
+        }
+        return result;
+    }
+
+    public static LinkedList<Integer> requiredList(int sum){
+        LinkedList<Integer> result = new LinkedList<>();
+        while (sum > 0){
+            int appendedNumber = sum % 10;
+            sum = sum /10;
+            result.push(appendedNumber);
+        }
+        return result;
+    }
+
+    public LinkedList<Integer> sumedList(LinkedList<Integer> l1, LinkedList<Integer> l2){
+//        Node h1 = (Node) l1.first;
+//        Node h2 = (Node) l2.first;
+        LinkedList<Integer> result = new LinkedList<>();
+        result.push(-1);
+        Node cur = (Node) result.peak();
+        int carrier = 0;
+        while (l1.first != null || l2.first != null){
+            int a = l1.first !=null ? l1.first.item : 0;
+            int b = l2.first !=null ? l2.first.item : 0;
+            result.push((a + b + carrier) % 10);
+            carrier = (a + b)/10;
+            cur = cur.next;
+            l1.first = l1.first.next;
+            l2.first = l2.first.next;
+        }
+        if (carrier > 0 ){
+            result.push(1);
+        } else{
+            result.push(null);
+        }
+        result.first = result.first.next;
+        return result;
+    }
     public static void main(String[] args){
         LinkedList<Integer> theList = new LinkedList<>();
+        LinkedList<Integer> theList1 = new LinkedList<>();
         theList.push(1);
         theList.push(3);
         theList.push(5);
-        theList.reversing();
-        System.out.println(theList);
+        theList1.push(2);
+        theList1.push(4);
+        theList1.push(6);
+        LinkedList<Integer> sumLinkedList = theList.sumedList(theList1, theList);
+        System.out.print(sumLinkedList);
+//        theList.reversing();
+//        System.out.println(theList);
 //        theList.push(7);
 //        theList.push(9);
 //        theList.push(2);
