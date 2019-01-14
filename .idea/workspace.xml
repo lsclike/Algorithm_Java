@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901ccbaf-7e7d-42b2-92a3-fd33884ee267" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/stdlib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4__1_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/Al/linkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/Al/linkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +29,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+            <state relative-caret-position="56">
+              <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
                 <element signature="e#1745#1746#0" expanded="true" />
                 <element signature="e#1791#1792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circular_Rotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Circular_Rotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copyStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,36 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/HashTable/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeavingInteger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/linkedList/WeavingInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isBalanced.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/isBalanced.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListdelete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/LinkedListdelete.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/out/production/Algorithm/com/Al/StdRandom.class" />
         <option value="$PROJECT_DIR$/out/production/Algorithm/com/Al/Random.class" />
         <option value="$PROJECT_DIR$/src/com/Al/Counter.java" />
         <option value="$PROJECT_DIR$/src/com/Al/Count_first.java" />
@@ -213,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/com/Al/HashTable/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/com/Al/questions/chapter1/mastery.java" />
         <option value="$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" />
       </list>
     </option>
   </component>
@@ -262,14 +257,7 @@
               <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Al" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Al" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
+              <item name="string_practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -322,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.LongestSubString">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -351,13 +339,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Stopwatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Al.questions.chapter1.Stopwatch" />
+    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Al.string_practice.LongestSubString" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Al.questions.chapter1.*" />
+          <option name="PATTERN" value="com.Al.string_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,19 +432,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Stopwatch" />
       <item itemvalue="Application.ClientForLinkedList" />
       <item itemvalue="Application.WeavingInteger" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.LongestSubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.WeavingInteger" />
         <item itemvalue="Application.ClientForLinkedList" />
-        <item itemvalue="Application.Stopwatch" />
       </list>
     </recent_temporary>
   </component>
@@ -522,12 +510,12 @@
       <workItem from="1547208895408" duration="1237000" />
       <workItem from="1547253130546" duration="10610000" />
       <workItem from="1547291965866" duration="3250000" />
-      <workItem from="1547346650879" duration="5034000" />
+      <workItem from="1547346650879" duration="7509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256525000" />
+    <option name="totallyTimeSpent" value="259000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1440" height="829" extended-state="6" />
@@ -542,13 +530,14 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.30728477" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.31557378" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.31557378" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3251366" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
       <window_info anchor="right" id="Database" order="5" weight="0.32947975" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info id="Learn" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.249309" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -563,7 +552,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -644,14 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java_library/stdlib.jar!/Stopwatch.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/Al/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="84" column="25" lean-forward="true" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java" />
     <entry file="jar://$USER_HOME$/java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedBag.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/ClientBiStackLinkedList.java">
@@ -698,13 +678,6 @@
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Shell.java.html" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Shell.java" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/KMP.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/BagLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -880,14 +853,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="173" column="9" lean-forward="true" selection-start-line="173" selection-start-column="9" selection-end-line="173" selection-end-column="9" />
+        <state relative-caret-position="56">
+          <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#1745#1746#0" expanded="true" />
             <element signature="e#1791#1792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Circular_Rotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
