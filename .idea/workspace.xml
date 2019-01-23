@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901ccbaf-7e7d-42b2-92a3-fd33884ee267" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/Al/string_practice/LongestSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/Al/string_practice/LongestSubString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,22 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Circular_Rotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Circular_Rotation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,23 +41,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copyStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+      <file leaf-file-name="BinarySearchST.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/BinarySearchST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="17">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestSubString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="166" column="39" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="39" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#16244#16250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copyStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="253">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeTravelRecursive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/shell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientShellSorting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/clientShellSorting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -78,60 +133,8 @@
       <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mastery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/mastery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String_test1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/String_test1.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueClientGetOneCharacter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/QueueClientGetOneCharacter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert_example2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Convert_example2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListdelete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/LinkedListdelete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="44" column="34" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -149,6 +152,13 @@
     <findStrings>
       <find>centry</find>
       <find>linked</find>
+      <find>size</find>
+      <find>root</find>
+      <find>max</find>
+      <find>level</find>
+      <find>levelOrder</find>
+      <find>put</find>
+      <find>top</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/out/production/Algorithm/com/Al/Random.class" />
-        <option value="$PROJECT_DIR$/src/com/Al/Counter.java" />
         <option value="$PROJECT_DIR$/src/com/Al/Count_first.java" />
         <option value="$PROJECT_DIR$/src/com/Al/test_count_first.java" />
         <option value="$PROJECT_DIR$/src/com/Al/In.java" />
@@ -208,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/com/Al/questions/chapter1/mastery.java" />
         <option value="$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" />
+        <option value="$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java" />
+        <option value="$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -231,9 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,7 +264,21 @@
               <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Al" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2_sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Al" type="462c0819:PsiDirectoryNode" />
               <item name="string_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Al" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +306,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,20 +334,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubString">
+  <component name="RunManager" selected="Application.BinarySearchTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientForLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Al.linkedList.ClientForLinkedList" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Al.Tree.BinarySearchTree" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Al.linkedList.*" />
+          <option name="PATTERN" value="com.Al.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,19 +456,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientForLinkedList" />
       <item itemvalue="Application.WeavingInteger" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.LongestSubString" />
+      <item itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.WeavingInteger" />
-        <item itemvalue="Application.ClientForLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -510,34 +534,33 @@
       <workItem from="1547208895408" duration="1237000" />
       <workItem from="1547253130546" duration="10610000" />
       <workItem from="1547291965866" duration="3250000" />
-      <workItem from="1547346650879" duration="7509000" />
+      <workItem from="1547346650879" duration="23386000" />
+      <workItem from="1547528693100" duration="14644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259000000" />
+    <option name="totallyTimeSpent" value="289521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1440" height="829" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="834" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3251366" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32428765" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.30728477" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.31557378" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.31478968" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3251366" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
       <window_info anchor="right" id="Database" order="5" weight="0.32947975" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info id="Learn" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.249309" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -552,32 +575,33 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20365246" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3411633" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32908458" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -632,22 +656,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java" />
-    <entry file="jar://$USER_HOME$/java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedBag.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/ClientBiStackLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Al/FIFOQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/Count_first.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -698,24 +706,10 @@
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Insertion.java" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Knuth.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Transaction.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/shell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/Test_for_passing_reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/clientShellSorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -844,23 +838,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="167" column="9" lean-forward="true" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
+        <state relative-caret-position="2686">
+          <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -872,19 +855,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/clientShellSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/BinarySearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/chapter2_sorting/shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="253">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="166" column="39" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#16244#16250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
           </folding>
         </state>
       </provider>
