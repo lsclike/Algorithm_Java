@@ -101,22 +101,31 @@ public class BinarySearchTree<K extends Comparable<K>, V>{
         return keys;
     }
 
-//    public Iterable<K> postOrderTravel(){
-//        Node startNode = root;
-//        List<K> keys = new ArrayList<>();
-//        Stack<Node> nodes = new Stack<>();
-//        while( startNode != null || !nodes.isEmpty()){
-//            while (startNode != null){
-//                nodes.add(startNode);
-//                startNode = startNode.leftChild;
-//            }
-//            startNode = nodes.pop();
-//            if (startNode.rightChild != null){
-//                nodes.add(startNode.rightChild);
-//                keys.add(startNode.key);
-//            }
-//        }
-//    }
+    public Iterable<K> postOrderTravel(){
+        Node startNode = root;
+        List<K> keys = new ArrayList<>();
+        Stack<Node> nodes = new Stack<>();
+        while( startNode != null || !nodes.isEmpty()){
+            if (startNode != null){
+                nodes.add(startNode);
+                startNode = startNode.leftChild;
+            }
+            else {
+                Node temp = nodes.peek().rightChild;
+                if (temp == null){
+                    temp = nodes.pop();
+                    keys.add(temp.key);
+                while (!nodes.isEmpty() && temp == nodes.peek().rightChild){
+                    temp = nodes.pop();
+                    keys.add(temp.key);
+                }
+                }else {
+                    startNode = temp;
+                }
+            }
+        }
+        return keys;
+    }
 
     public Iterable<K> preOrderTravel(){
         Node startNode = root;
@@ -145,7 +154,7 @@ public class BinarySearchTree<K extends Comparable<K>, V>{
         test.put(23, "f");
         test.put(26, "g");
         System.out.println(test.size());
-        for (Integer key: test.preOrderTravel()
+        for (Integer key: test.postOrderTravel()
              ) {
             System.out.print(key + "\t");
         }

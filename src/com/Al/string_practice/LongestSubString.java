@@ -1,7 +1,5 @@
 package com.Al.string_practice;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Stack;
 
@@ -10,7 +8,6 @@ public class LongestSubString {
         int l = 0;
         int r = -1;
         int result = 0;
-        ArrayList<Integer> result1 = new ArrayList<>();
         HashSet<Character> mapping = new HashSet<>();
         Stack<Integer> test = new Stack<>();
         test.pop();
