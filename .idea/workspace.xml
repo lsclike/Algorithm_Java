@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="901ccbaf-7e7d-42b2-92a3-fd33884ee267" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/Al/Interview/AbstractAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Al/Interview/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/Al/Tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/Al/Tree/BinarySearchTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,28 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/BST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="166" column="39" selection-start-line="166" selection-start-column="36" selection-end-line="166" selection-end-column="39" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#16244#16250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="copyStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/questions/chapter1/copyStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LongestSubString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+            <state relative-caret-position="2039">
+              <caret line="147" column="26" lean-forward="true" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1086#1087#0" expanded="true" />
@@ -87,6 +68,39 @@
                 <element signature="e#1133#1134#0" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractAnimal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/Interview/AbstractAnimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/Interview/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Al/Bag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1088">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,18 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-546">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Al/HashTable/TwoSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -168,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Al/Count_first.java" />
-        <option value="$PROJECT_DIR$/src/com/Al/test_count_first.java" />
         <option value="$PROJECT_DIR$/src/com/Al/In.java" />
         <option value="$PROJECT_DIR$/src/com/Al/Out.java" />
         <option value="$PROJECT_DIR$/src/com/Al/Bag.java" />
@@ -219,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java" />
         <option value="$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java" />
         <option value="$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/Al/Interview/Dog.java" />
+        <option value="$PROJECT_DIR$/src/com/Al/Interview/AbstractAnimal.java" />
       </list>
     </option>
   </component>
@@ -265,14 +267,7 @@
               <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Al" type="462c0819:PsiDirectoryNode" />
-              <item name="CS61B" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Al" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="Interview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -328,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.Dog">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -342,6 +337,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Al.Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Al.Interview.Dog" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Al.Interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,17 +381,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Al.HashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WeavingInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Al.linkedList.WeavingInteger" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Al.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -450,19 +445,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WeavingInteger" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.LongestSubString" />
       <item itemvalue="Application.BinarySearchTree" />
+      <item itemvalue="Application.Dog" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.WeavingInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +529,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296533000" />
+    <option name="totallyTimeSpent" value="299503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
@@ -549,9 +544,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.30728477" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.31478968" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" visible="true" weight="0.31478968" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32428765" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32428765" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22031474" />
@@ -674,9 +669,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/ResizingArrayQueue.java" />
-    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/LinkedBag.java" />
-    <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/ResizingArrayBag.java" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Selection.java" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Interval1D.java" />
     <entry file="jar://$PROJECT_DIR$/../java_library/algs4.jar!/edu/princeton/cs/algs4/Shell.java.html" />
@@ -890,16 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/string_practice/LongestSubString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -938,10 +920,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Bag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/TreeTravelRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Al/Tree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="118" column="43" selection-start-line="118" selection-start-column="43" selection-end-line="118" selection-end-column="43" />
+        <state relative-caret-position="2039">
+          <caret line="147" column="26" lean-forward="true" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1086#1087#0" expanded="true" />
@@ -949,6 +948,26 @@
             <element signature="e#1133#1134#0" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Interview/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Al/Interview/AbstractAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>

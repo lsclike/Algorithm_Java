@@ -153,6 +153,7 @@ public class BinarySearchTree<K extends Comparable<K>, V>{
         test.put(25, "e");
         test.put(23, "f");
         test.put(26, "g");
+        System.out.println(test.root);
         System.out.println(test.size());
         for (Integer key: test.postOrderTravel()
              ) {
