@@ -22,7 +22,7 @@ public class LinkedList<E> implements Iterable<E> {
     }
 
     public boolean isEmpty() {
-        return size == 0;
+        return size() == 0;
     }
 
     public void push(E item){
