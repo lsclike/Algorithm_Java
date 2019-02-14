@@ -1,5 +1,7 @@
 package com.Al.chapter2_sorting;
 
+import com.Al.StdRandom;
+
 import java.util.Arrays;
 
 public class sortingPractice {
@@ -69,6 +71,7 @@ public class sortingPractice {
         }
     }
 
+    //Merge sort and related helper methods
     private static void merge(Comparable[] arr, Comparable[] aux, int lo, int mid, int hi){
         for (int i = lo; i <= hi; i++){
             aux[i] = arr[i];
@@ -97,10 +100,31 @@ public class sortingPractice {
         assert isSorted(arr);
     }
 
+    //quick sort
+    private static void sort(Comparable[] arr, int lo, int hi) {
+        if (hi <= lo) return;
+        int lt = lo, gt = hi;
+        Comparable v = arr[lo];
+        int i = lo + 1;
+        while (i <= gt) {
+            int cmp = arr[i].compareTo(v);
+            if (cmp < 0) exchange(arr, lt++, i++);
+            else if (cmp > 0) exchange(arr, i, gt--);
+            else i++;
 
+            sort(arr, lo, lt - 1);
+            sort(arr, gt + 1, hi);
+        }
+    }
+
+    public static void QuickSort(Comparable[] arr){
+        StdRandom.shuffle(arr);
+        sort(arr, 0, arr.length - 1);
+        isSorted(arr);
+    }
     public static void main(String[] args){
-        Integer[] test = {4,3,2,1,0};
-        MergeSort(test);
+        Integer[] test = {4, 3, 2, 1, 0, 10};
+        QuickSort(test);
         show(test);
     }
 }
