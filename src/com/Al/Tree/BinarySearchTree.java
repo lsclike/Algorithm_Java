@@ -2,7 +2,6 @@ package com.Al.Tree;
 
 import edu.princeton.cs.algs4.Queue;
 
-import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -115,11 +114,12 @@ public class BinarySearchTree<K extends Comparable<K>, V>{
                 if (temp == null){
                     temp = nodes.pop();
                     keys.add(temp.key);
-                while (!nodes.isEmpty() && temp == nodes.peek().rightChild){
-                    temp = nodes.pop();
-                    keys.add(temp.key);
+                    while (!nodes.isEmpty() && temp == nodes.peek().rightChild){
+                        temp = nodes.pop();
+                        keys.add(temp.key);
+                    }
                 }
-                }else {
+                else {
                     startNode = temp;
                 }
             }

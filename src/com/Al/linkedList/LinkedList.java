@@ -4,11 +4,11 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class LinkedList<E> implements Iterable<E> {
-    public class Node{
+    private class Node{
         private E item;
         private Node next;
 
-        private Node(E item, Node next){
+        public Node(E item, Node next){
             this.item = item;
             this.next = next;
         }
@@ -40,13 +40,24 @@ public class LinkedList<E> implements Iterable<E> {
         if (isEmpty()){
             throw new NoSuchElementException("List underflow");
         }
-        Node removedNode = first;
-        first = first.next;
-        if (first.next == null){
-            this.last = null;
+
+        if (size() == 1){
+            last = null;
+            E item = first.item;
+            first = null;
+            size--;
+            return item;
+
         }
+
+        Node removed = first;
+        while (removed.next != last){
+            removed = removed.next;
+        }
+        E item = last.item;
+        last = removed;
         size--;
-        return removedNode.item;
+        return item;
     }
 
     public boolean contains(E o) {
@@ -70,10 +81,10 @@ public class LinkedList<E> implements Iterable<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return new Iterable();
+        return new ListIterator();
     }
 
-    private class Iterable implements Iterator<E> {
+    private class ListIterator implements Iterator<E> {
         Node current = first;
         public boolean hasNext() {
             return current != null;
@@ -161,7 +172,7 @@ public class LinkedList<E> implements Iterable<E> {
             int a = l1.first !=null ? l1.first.item : 0;
             int b = l2.first !=null ? l2.first.item : 0;
             result.push((a + b + carrier) % 10);
-            carrier = (a + b)/10;
+            carrier += (a + b)/10;
             cur = cur.next;
             l1.first = l1.first.next;
             l2.first = l2.first.next;
@@ -174,19 +185,18 @@ public class LinkedList<E> implements Iterable<E> {
         result.first = result.first.next;
         return result;
     }
+
     public static void main(String[] args){
         LinkedList<Integer> theList = new LinkedList<>();
-        LinkedList<Integer> theList1 = new LinkedList<>();
+//        LinkedList<Integer> theList1 = new LinkedList<>();
         theList.push(1);
-        theList.push(3);
+        theList.push(8);
         theList.push(5);
-        theList1.push(2);
-        theList1.push(4);
-        theList1.push(6);
-        LinkedList<Integer> sumLinkedList = theList.sumedList(theList1, theList);
-        System.out.print(sumLinkedList);
-//        theList.reversing();
-//        System.out.println(theList);
+//        theList1.push(2);
+//        theList1.push(4);
+//        theList1.push(6);
+//        LinkedList<Integer> sumLinkedList = theList.sumedList(theList1, theList);
+//        System.out.print(sumLinkedList);
 //        theList.push(7);
 //        theList.push(9);
 //        theList.push(2);
@@ -194,5 +204,11 @@ public class LinkedList<E> implements Iterable<E> {
 //        theList.push(6);
 //        theList.push(8);
 //        theList.push(10);
+//        theList.reversing();
+//        System.out.println(theList);
+        System.out.println(theList.removeFromTail());
+        System.out.println(theList.removeFromTail());
+        System.out.println(theList.removeFromTail());
+        System.out.println(theList.removeFromTail());
     }
 }
