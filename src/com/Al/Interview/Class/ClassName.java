@@ -8,7 +8,7 @@ public class ClassName {
         Class<?> StringArray = String[].class;
         System.out.println(cl);
         System.out.println(StringArray);
-//        System.out.println(cl);
+        System.out.println(cl);
         Class<?> scannCl = java.util.Scanner.class;
         System.out.println(scannCl);
     }
